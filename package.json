@@ -1,26 +1,22 @@
 {
-
-   "license" : "MIT",
-  
-
+  "license": "MIT",
   "engines": {
     "node": "16.2.0",
     "yarn": "1.22.5"
-},
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.11"
+    "mongoose": "^5.12.11",
+    "react-scripts": "^4.0.3"
+
   },
-
-
-
   "scripts": {
-    "start": "node Server.js", 
+    "start": "node Server.js",
     "install": "cd client && yarn run start",
     "build-client": "cd client && yarn run build",
     "heroku-postbuild": "yarn run install && yarn run build"
-}
+  }
 }
