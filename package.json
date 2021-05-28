@@ -18,11 +18,9 @@
 
 
   "scripts": {
-    "build": "cd client && yarn run build",
-    "install-client": "cd client && yarn run start",
-    "heroku-postbuild": "yarn run install-client && yarn run build",
-    "server": "nodemon Server.js",
-    "develop": "concurrently --kill-others-on-fail \"yarn run server\" \"yarn run start --prefix client\"",
-    "start": "concurrently --kill-others-on-fail \"yarn run server\" \"yarn run start --prefix client\""
+    "start": "node Server.js", 
+    "install-client": "cd client && yarn add client",
+    "build-client": "cd client && yarn run build",
+    "heroku-postbuild": "yarn run install-client && yarn run build-client"
 }
 }
