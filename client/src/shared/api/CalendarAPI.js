@@ -1,9 +1,9 @@
-import axios from 'axios'
+import Axios from 'axios'
 
 const productionAPI = ''
 const developmentAPI = 'http://localhost:3001'
 
-const CalendarAPI = axios.create({
+const CalendarAPI = Axios.create({
     baseURL:developmentAPI
 
 })
