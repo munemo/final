@@ -19,8 +19,8 @@
 
   "scripts": {
     "start": "node Server.js", 
-    "install-client": "cd client && yarn run react-scripts start",
-    "build-client": "cd client && yarn run react-scripts build",
-    "heroku-postbuild": "yarn run install-client && yarn run build-client"
+    "install": "cd client && yarn run start",
+    "build-client": "cd client && yarn run build",
+    "heroku-postbuild": "yarn run install && yarn run build"
 }
 }
