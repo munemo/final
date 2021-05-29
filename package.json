@@ -1,28 +1,11 @@
 {
-  "license": "MIT",
-  "engines": {
-    "node": "16.2.0",
-    "yarn": "1.22.5"
-  },
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.11",
-    "react": "^17.0.2",
-    "axios": "^0.21.1",
-    "react-scripts": "^4.0.3",
-    "react-router-dom": "^5.2.0",
-    "react-dom": "^17.0.2",
-    "web-vitals": "^1.0.1",
-    "react-calendar": "^3.4.0"
+  "name": "final",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["client", "backend"],
+  "main": "cd client && node Server.js",
+  "repository": "https://github.com/munemo/final.git",
+  "author": "munemo <john.chimbani@outlook.com>",
+  "license": "MIT"
 
-  },
-  "scripts": {
-    "start": "node Server.js",
-    "install": "cd client && yarn run start",
-    "build-client": "cd client && yarn run build",
-    "heroku-postbuild": "yarn run install && yarn run build"
-  }
 }
