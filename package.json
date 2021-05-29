@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": ["client", "backend"],
-  "main": "cd client && node Server.js",
+  "main": "node Server.js",
   "repository": "https://github.com/munemo/final.git",
   "author": "munemo <john.chimbani@outlook.com>",
   "license": "MIT"
