@@ -4,7 +4,6 @@ import Logotype from '../../shared/images/logotype.svg'
 import { useHistory } from 'react-router-dom'
 import { UserContext } from '../../shared/global/provider/UserProvider'
 import { Profile } from '../profile/Profile'
-import { RegisterView} from '../../view/RegisterView'
 import RoutingPath from '../../routes/RoutingPath'
 
 export const NavigationBar = () => {
