@@ -18,8 +18,8 @@
     
   },
   "scripts": {
-    "start": "cd .. && run node Server.js",
-    "install": "cd ../clientt && yarn run start",
+    "start": "cd client && run node Server.js",
+    "install": "cd client && yarn run start",
     "build-client": "cd ../client && yarn run build",
     "heroku-postbuild": "yarn run install && yarn run build"
   }
